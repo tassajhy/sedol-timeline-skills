@@ -1,0 +1,26 @@
+# 실제 프로필과 수집 데이터는 공개하지 않습니다.
+stations/
+private/
+artifacts/
+meta.json
+subs.json
+chat.json
+events.json
+seg*_input.md
+seg*_out.md
+*_타임라인_*.txt
+*.log
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# 인증정보·브라우저 상태·실행 중 생성한 모듈을 제외합니다.
+.env
+.env.*
+*storage-state*.json
+*storageState*.json
+*cookies*.json
+browser-profile/
+soop-timeline-runtime.mjs
+node_modules/
